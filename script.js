@@ -1,48 +1,50 @@
-const superheroes = [
-    {name: "Batman", alter_ego: "Bruce Wayne"}, 
-    {name: "Superman", alter_ego: "Clark Kent"}, 
-    {name: "Spiderman", alter_ego: "Peter Parker"}]
+// const superheroes = [
+//     {name: "Batman", alter_ego: "Bruce Wayne"}, 
+//     {name: "Superman", alter_ego: "Clark Kent"}, 
+//     {name: "Spiderman", alter_ego: "Peter Parker"}]
 
-    // let findSpiderMan = superheroes.find((array) => {
-    //     array.name === "Spiderman"
-    // })
-    // console.log(findSpiderMan); 
+//     const findSpiderMan = (superheroes) => superheroes.find((element) => {
+//         return element.name = "Spiderman"
+//     })
+//     console.log(findSpiderMan(superheroes)) 
+//     // Find Spiderman
+//     // result should be: {name: "Spiderman", alter_ego: "Peter Parker"}
 
-    // console.log(superheroes.find === name, "Spiderman")
+// const doubleArrayValues = (array) => array.forEach(element => {
+//     console.log(element *= 2)
+// });
 
-    // let findSpiderMan = function(array){
-    //     return array.find("spiderman")
-    // }
-    // console.log(findSpiderMan(superheroes));
+// doubleArrayValues([1, 2, 3]) 
+// const containsNumberBiggerThan10 = (array) => console.log(array.includes(11));
 
-    // let findSpiderMan = function(name){
-    //     return name.find === name, "Spiderman";
-    // }
-    // console.log(findSpiderMan(superheroes));
+// const containsNumberBiggerThan10 = (array) => console.log(array.some(element => element > 10));
 
-    // let findSpiderMan = function(superHeroes){
-    //     let i = superheroes.indexOf === "Spiderman";
-    //     return i;
-    // }
-    // console.log(superheroes[findSpiderMan]);
+//   containsNumberBiggerThan10([1, 4, 3, 6, 9, 7, 11]); 
+  // result should be true
+//  containsNumberBiggerThan10([1,2,1,2,1,2]);
+  // result should be false
 
-    // let findSpiderMan = function(array){
-    //     return array.find("spiderman", name)
-    
-    // }
-    //     console.log(findSpiderMan(superheroes));
-    // let findSpiderMan = function(array) {
-    //     return array.name.find === "Spiderman";
-    // }
-    // console.log(findSpiderMan(superheroes));
 
-    // let findSpiderMan = (array => {
-    //     array.find === name;
-    //     console.log(name);
-    // })
-    // console.log(findSpiderMan);
-    // console.log(findSpiderMan(superHeroes));
+//   const isItalyInTheGreat7 = (array) => console.log(array.includes(("Italy")));
 
-    // console.log(findSpiderMan(superHeroes)); 
-    // Find Spiderman
-    // result should be: {name: "Spiderman", alter_ego: "Peter Parker"}
+//   isItalyInTheGreat7(['Canada', 'France','Germany','Italy','Japan','United Kingdom','United States']);
+  // result should be true
+let ar2 =[]
+tenfold = function(tenfold){
+    tenfold.forEach(element =>{
+      let array = element * 10;
+      ar2.push(array)
+      }
+    )
+    return ar2
+}
+  console.log(tenfold([1, 4, 3, 6, 9, 7, 11]))
+
+  // result should be [10, 40, 30, 60, 90, 70, 110]
+
+
+  // const isBelow100 = (array) => array.every(element => {
+  //     return element < 100;
+  // });
+  // console.log(isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 101, 11, 77, 84, 98 ]))
+  // result should be: false
